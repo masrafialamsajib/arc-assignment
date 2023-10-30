@@ -7,6 +7,8 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
 /* header*/
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -32,6 +34,8 @@ nav li{
     font-size: 1rem;
     color: #424242;
 }
+
+
 /*btn*/
 .btn-primary {
     border-radius: 8px;
@@ -43,6 +47,9 @@ nav li{
     cursor: pointer;
     border: 0;
 }
+
+
+
 /*banner*/
 .banner-content {
     max-width: 800px;
@@ -62,6 +69,10 @@ main {
     max-width: 1440px;
     margin: 70px auto;
 }
+
+
+
+
 /*team*/
 .teams-container {
     display: flex;
@@ -86,7 +97,11 @@ main {
     color: #FF900E;
     font-weight: 700;
 }
-/*third part*/
+
+
+
+
+/*second part*/
 .features {
     margin-top: 130px;
     display: flex;
@@ -125,4 +140,51 @@ main {
 
 .ten-years-badge p{
     font-size: 1.5rem;
+}
+
+
+
+
+/*third part*/
+.f-container {
+    display: flex;
+    justify-content: space-around;
+}
+.f-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.f-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.f-container .card-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Fourth part*/
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-img-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.sponsors-img-container img {
+    width: 165px;
 }
